@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+     <title>Codeedex Technologies</title>
+     <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
+
+
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+     <meta name="description" content="">
+     <meta name="keywords" content="">
+     <meta name="team" content="">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/vegas.min.css">
+     <link rel="stylesheet" href="css/font-awesome.min.css">
+
+     <!-- MAIN CSS -->
+     <link rel="stylesheet" href="css/templatemo-style.css">
+
+</head>
+<body>
+
+     <!-- PRE LOADER -->
+     <section class="preloader">
+          <div class="spinner">
+
+               <span class="spinner-rotate"></span>
+               
+          </div>
+     </section>
+
+
+     <!-- GRID LINE -->
+    <section class="grid">
+         <div class="container">
+            <div class="row">
+
+              <div class="col-md-2 col-sm-2">
+                <div class="grid-line"></div>
+              </div>
+              <div class="col-md-2 col-sm-2">
+                <div class="grid-line"></div>
+              </div>
+              <div class="col-md-2 col-sm-2">
+                <div class="grid-line"></div>
+              </div>
+              <div class="col-md-2 col-sm-2">
+                <div class="grid-line"></div>
+              </div>
+              <div class="col-md-2 col-sm-2">
+                <div class="grid-line"></div>
+              </div>
+
+            </div>
+         </div>
+    </section>
+
+
+    <div class="menu-bg"></div>
+    <div class="menu-burger">☰</div>
+
+    <div class="menu-items">
+       <div class="container">
+         <div class="row">
+           <div class="col-md-offset-2 col-md-4 col-sm-6">
+            <h1>Navigations</h1>
+             <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Our Studio</a></li>
+                <li><a href="#">Journal</a></li>
+                <li><a href="#">Start a project</a></li>
+                <li><a href="#">Email Us</a></li>
+            </ul>
+           </div>
+
+           <div class="col-md-4 col-sm-6">
+             <address>
+               <h1>Codeedex Technologies</h1>
+               <p>Cherupulassery<br> Palakkad, Kerala</p>
+               <div class="google-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.0761291022714!2d76.32170895908227!3d10.881814301704765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7d100319663f9%3A0x5126aafb6fa9abbc!2sCodeedex%20Technologies!5e0!3m2!1sen!2sin!4v1713365916541!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>               </div>
+             </address>
+           </div> 
+
+           <div class="col-md-12 col-sm-12">
+             <ul class="social-icon">
+              <li class="line"></li>
+               <li><a href="https://fb.com/templatemo" class="fa fa-facebook"></a></li>
+               <li><a href="#" class="fa fa-twitter"></a></li>
+               <li><a href="https://wa.me/919778564277" class="fa fa-whatsapp"></a></li>
+               <li><a href="https://www.instagram.com/codeedextechnologies?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="fa fa-instagram"></a></li>
+             </ul>
+           </div>
+         </div>
+       </div>
+    </div>
+
+
+     <!-- HOME -->
+<!-- HOME -->
+<section id="home">
+     <div class="overlay"></div>
+     <div class="container">
+         <div class="row">
+             <div class="col-md-12 col-sm-12">
+                 <div class="home-info">
+                     <!-- Add your logo here -->
+                     <div class="site-logo">
+                         <a href="#">
+                             <img src="assets/img/logo.png" style="height: 200px; width: 200px;" alt="Your Logo">
+                         </a>
+                     </div>
+                     <h1>We are getting ready <br>to launch!</h1>
+                     <!-- Countdown timer -->
+                     <ul id="countdown" class="countdown">
+                         <li>
+                             <span id="days"></span>
+                             <h3>Days</h3>
+                         </li>
+                         <li>
+                             <span id="hours"></span>
+                             <h3>hours</h3>
+                         </li>
+                         <li>
+                             <span id="minutes"></span>
+                             <h3>minutes</h3>
+                         </li>
+                         <li>
+                             <span id="seconds"></span>
+                             <h3>seconds</h3>
+                         </li>
+                     </ul>
+                     <div class="subscribe-form">
+                         <form action="" method="get">
+                             <input type="email" name="email" class="form-control" placeholder="Enter your email" required="">
+                             <button type="submit" class="form-control"><i class="fa fa-envelope-o"></i></button>
+                         </form>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </section>
+ 
+
+     <!-- SCRIPTS -->
+     <script src="js/jquery.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+     <script src="js/vegas.min.js"></script>
+     <script src="js/countdown.js"></script>
+     <script src="js/init.js"></script>
+     <script src="js/custom.js"></script>
+
+     <script>
+          // Set the target launch date and time
+          var launchDate = new Date('2024-04-30T00:00:00').getTime();
+      
+          // Update the countdown timer every second
+          var countdown = setInterval(function() {
+              // Get current date and time
+              var now = new Date().getTime();
+      
+              // Calculate the time remaining until launch date
+              var distance = launchDate - now;
+      
+              // Calculate days, hours, minutes, and seconds
+              var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+              var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+              var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+              var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      
+              // Update the countdown timer display
+              document.getElementById('days').innerHTML = days;
+              document.getElementById('hours').innerHTML = hours;
+              document.getElementById('minutes').innerHTML = minutes;
+              document.getElementById('seconds').innerHTML = seconds;
+      
+              // If the launch date and time have passed, display a message
+              if (distance < 0) {
+                  clearInterval(countdown);
+                  document.getElementById('countdown').innerHTML = '<p>Launch date has passed!</p>';
+              }
+          }, 1000); // Update every second
+      </script>
+
+</body>
+</html>
