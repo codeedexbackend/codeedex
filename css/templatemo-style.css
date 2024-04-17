@@ -435,6 +435,11 @@ http://www.templatemo.com/tm-521-get-ready
     address {
       margin-top: 50px;
     }
+
+    .grid-line {
+      height: 5vh;
+      border-right: 1px solid rgba(255,255,255,0.02);
+    }
   }
 
   @media screen and (max-width: 360px) {
@@ -453,5 +458,10 @@ http://www.templatemo.com/tm-521-get-ready
 
     .countdown h3 {
       font-size: 12px;
+    }
+
+    .grid-line {
+      height: 5vh;
+      border-right: 1px solid rgba(255,255,255,0.02);
     }
   }
