@@ -440,6 +440,12 @@ http://www.templatemo.com/tm-521-get-ready
       height: 5vh;
       border-right: 1px solid rgba(255,255,255,0.02);
     }
+    .google-map iframe {
+      border: 0;
+      margin-top: 20px;
+      width: 351px;
+
+    }
   }
 
   @media screen and (max-width: 360px) {
@@ -463,5 +469,10 @@ http://www.templatemo.com/tm-521-get-ready
     .grid-line {
       height: 5vh;
       border-right: 1px solid rgba(255,255,255,0.02);
+    }
+    .google-map iframe {
+      border: 0;
+      margin-top: 20px;
+      width: 351px;
     }
   }
