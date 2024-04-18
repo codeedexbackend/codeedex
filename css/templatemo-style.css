@@ -446,6 +446,13 @@ http://www.templatemo.com/tm-521-get-ready
       width: 351px;
 
     }
+    .h1, .h2, .h3, h1, h2, h3 {
+      margin-top: 50px;
+      margin-bottom: 10px;
+  }
+  .menu-burger.fs {
+    transform: rotate(-180deg) translateY(5px);
+  }
   }
 
   @media screen and (max-width: 360px) {
@@ -475,4 +482,21 @@ http://www.templatemo.com/tm-521-get-ready
       margin-top: 20px;
       width: 351px;
     }
+    .h1, .h2, .h3, h1, h2, h3 {
+      margin-top: 50px;
+      margin-bottom: 10px;
+  }
+  .menu-burger.fs {
+    transform: rotate(-180deg) translateY(5px);
+  }
+  }
+  @media screen and (max-width: 390px) {
+
+  .h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+  .menu-burger.fs {
+    transform: rotate(-180deg) translateY(5px);
+  }
   }
